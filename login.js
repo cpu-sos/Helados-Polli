@@ -6,7 +6,7 @@ document.getElementById('formularioLogin').addEventListener('submit', function(e
     const contrasena = document.getElementById('contrasena').value;
 
     // Validación básica
-    if (usuario === 'axel' && contrasena === '12345') {
+    if (usuario === 'Pollo' && contrasena === '00000') {
         alert('Inicio de sesión exitoso. ¡Bienvenido!');
         //Aquí podrías redirigir a otra página:
         window.location.href = "index.html";

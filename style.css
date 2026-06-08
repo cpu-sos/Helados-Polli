@@ -1,8 +1,11 @@
 /* --- 1. VARIABLES --- */
 :root {
-    --color-primario: #f887e9; /* Color principal */
-    --color-oscuro: #1a1a1a; /* Color oscuro para textos fuertes */
-    --color-texto: #444; /* Color general del texto */
+    --color-primario: #FE81D4; /* Color principal */
+    --color-secundario: #FAACBF; /* Color secundario*/
+    --color-terciario: #FBC3C1; /*Color terciario*/
+    --color-claro: #FFEABB; /*Color claro*/
+    --color-oscuro: #000000; /* Color oscuro para textos fuertes */
+    --color-texto: #222121; /* Color general del texto */
     --blanco: #ffffff; /* Color blanco */
     --sombra: 0 10px 30px rgba(0,0,0,0.1); /* Sombra suave */
     --transicion: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* Animación suave */
@@ -17,8 +20,8 @@
 
 /* Configuración general del body */
 body {
-    font-family: 'Times New Roman', Times, serif; /* Fuente */
-    background-color: #f5b0ec; /* Fondo claro */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fuente */
+    background-color: var(--color-claro); /* Fondo claro */
     color: var(--color-texto); /* Color del texto */
     display: flex;
     flex-direction: column;
@@ -34,7 +37,7 @@ body {
 
 /* --- 2. HEADER Y LOGO --- */
 header {
-    background: var(--blanco); /* Fondo blanco */
+    background: var(--color-claro);
     padding: 15px 0;
     box-shadow: 0 2px 15px rgba(0,0,0,0.05); /* Sombra ligera */
     position: sticky; /* Se queda fijo arriba */
@@ -113,7 +116,7 @@ header .container {
     position: absolute;
     top: 120%; /* Debajo del menú */
     left: -20px;
-    background: var(--blanco);
+    background: var(--color-terciario);
     min-width: 220px;
     padding: 15px 0;
     list-style: none;
@@ -155,13 +158,13 @@ header .container {
     color: var(--blanco) !important;
     padding: 10px 25px !important;
     border-radius: 50px; /* Forma redonda */
-    box-shadow: 0 4px 15px rgba(21, 124, 21, 0.3);
+    box-shadow: 0 4px 15px var(--color-secundario);
 }
 
 /* Efecto hover del botón */
 .btn-login:hover {
     transform: translateY(-2px); /* Se levanta */
-    box-shadow: 0 6px 20px rgba(21, 124, 21, 0.3);
+    box-shadow: 0 6px 20px var(--color-secundario);
 }
 
 /* --- 5. RESPONSIVE --- */
@@ -280,7 +283,7 @@ footer {
 
     /* Estilo base de los cuadros */
     .cuadro {
-        background: var(--blanco);
+        background: var(--color-terciario);
         border-radius: 12px;
         padding: 20px;
         box-shadow: 0 4px 15px rgba(0,0,0,0.05);

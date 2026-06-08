@@ -72,7 +72,7 @@
     /* Efecto al enfocar los campos */
     .login-box input[type="text"]:focus,
     .login-box input[type="password"]:focus {
-      border-color: #f887e9; /* Borde azul al enfocar */
+      border-color: #f887e9; /* Borde al enfocar */
       box-shadow: 0 0 5px rgba(0, 114, 255, 0.3);
     }
 
@@ -80,7 +80,7 @@
     .login-box input[type="submit"] {
       width: 100%;
       padding: 12px;
-      background-color: #f887e9; /* Verde */
+      background-color: #f887e9; 
       color: white;
       border: none;
       border-radius: 8px;
@@ -91,7 +91,7 @@
 
     /* Efecto al pasar el mouse sobre el botón */
     .login-box input[type="submit"]:hover {
-      background-color: #ff00dd; /* Azul más oscuro al pasar el cursor */
+      background-color: #FE81D4;
     }
 
     /* Estilos para enlaces adicionales */
