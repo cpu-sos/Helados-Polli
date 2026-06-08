@@ -20,9 +20,9 @@
 
 /* Configuración general del body */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fuente */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente */
     background-color: var(--color-claro); /* Fondo claro */
-    color: var(--color-texto); /* Color del texto */
+    color: var(--color-oscuro); /* Color del texto */
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Para que el footer quede abajo */
@@ -141,7 +141,7 @@ header .container {
 .dropdown-content li a {
     padding: 12px 25px;
     font-size: 0.9rem;
-    color: var(--color-texto);
+    color: var(--color-primario);
     font-weight: 400;
 }
 
