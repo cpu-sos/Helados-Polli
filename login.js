@@ -9,7 +9,7 @@ document.getElementById('formularioLogin').addEventListener('submit', function(e
     if (usuario === 'Pollo' && contrasena === '00000') {
         alert('Inicio de sesión exitoso. ¡Bienvenido!');
         //Aquí podrías redirigir a otra página:
-        window.location.href = "index.html";
+        window.location.href = "index_log.html";
     }   else {
         alert('Usuario o contraseña incorrectos. Intenta nuevamente.');
     }
